@@ -1,4 +1,4 @@
- from behave import *
+from behave import *
 from selenium import webdriver
 from features.pages.Itemcheckout_page import Itemcheckout_page
 
