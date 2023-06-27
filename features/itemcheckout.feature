@@ -10,7 +10,7 @@ Feature: item checkout functionality
     When i enter to item
     When i enter buynow
     When i entet title 5
-    When i enter to google login
+    When i enter to google login1
     When i eneter mail field
     When i enter to next
     When i enter to password
