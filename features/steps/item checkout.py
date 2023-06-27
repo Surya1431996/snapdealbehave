@@ -1,4 +1,4 @@
-from behave import *
+ from behave import *
 from selenium import webdriver
 from features.pages.Itemcheckout_page import Itemcheckout_page
 
@@ -73,6 +73,12 @@ def step_impl(context):
 def step_impl(context):
     itemcheckout = Itemcheckout_page(context.driver)
     itemcheckout.enter_to_google_field()
+
+
+@when(u'i enter to google login1')
+def step_impl(context):
+    itemcheckout = Itemcheckout_page(context.driver)
+    itemcheckout.glogin()
 
 
 @when(u'i eneter mail field')
